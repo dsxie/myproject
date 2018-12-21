@@ -20,7 +20,8 @@ public class IndexController {
 	public Map<String, Object> index() {
 		Map<String, Object> response = new HashMap<>();
 		response.put("code", 200);
-		response.put("message", "提示信息");
+		response.put("message", "ok");
+		response.put("one", "简单");
 		response.put("data", new HashMap<String, String>());
 		return response;
 	}
