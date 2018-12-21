@@ -19,7 +19,7 @@ public class IndexController {
 	@ResponseBody
 	public Map<String, Object> index() {
 		Map<String, Object> response = new HashMap<>();
-		response.put("code", 200);
+		response.put("code", 20000);
 		response.put("message", "Ok");
 		response.put("data", new HashMap<String, String>());
 		return response;
